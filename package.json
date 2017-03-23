@@ -4,7 +4,7 @@
   "description": "Simple and useful function for generating friendly url/slug.",
   "main": "index.js",
   "scripts": {
-    "test": "standard && mocha"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -22,7 +22,6 @@
   "devDependencies": {
     "coveralls": "^2.12.0",
     "istanbul": "^0.4.5",
-    "mocha": "^3.2.0",
-    "standard": "^9.0.2"
+    "mocha": "^3.2.0"
   }
 }

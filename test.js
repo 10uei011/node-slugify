@@ -99,7 +99,7 @@ it('What is the name of this operator: “-->”?', () => {
 it('Why is INDIA great: “-->”?', () => {
   // arrange
   const title = 'Why is INDIA great: “-->”?'
-  const expected = 'why-is-INDIA-great'
+  const expected = 'Why-is-INDIA-great'
 
   // act
   const actual = friendlyUrl(title, {
@@ -114,8 +114,8 @@ it('Why is INDIA great: “-->”?', () => {
 // stackoverflow.com/questions/1642028/why_is_india_great
 it('Why is india great: “-->”?', () => {
   // arrange
-  const title = 'Why is india great: “-->”?'
-  const expected = 'why_is_INDIA_great'
+  const title = 'why is india great: “-->”?'
+  const expected = 'why_is_india_great'
 
   // act
   const actual = friendlyUrl(title, {
