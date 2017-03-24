@@ -3,7 +3,7 @@
 /* global it */
 
 const assert = require('assert')
-const friendlyUrl = require('./')
+const friendlyUrl = require('../')
 
 it('Résumé', () => {
   // arrange
