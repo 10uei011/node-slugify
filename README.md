@@ -1,6 +1,7 @@
 # node-slugify
 
 [![Build Status](https://travis-ci.org/10uei011/node-slugify.svg?branch=master)](https://travis-ci.org/10uei011/node-slugify)
+[![Coverage Status](https://coveralls.io/repos/github/10uei011/node-slugify/badge.svg)](https://coveralls.io/github/10uei011/node-slugify)
 
 A simple function which generates friendly url or slugs from string input.
 
