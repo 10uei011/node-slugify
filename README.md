@@ -1,11 +1,12 @@
 # node-slugify
 
-A simple function which generates friendly url or slugs from string input.
+[![Build Status](https://travis-ci.org/10uei011/node-slugify.svg?branch=master)](https://travis-ci.org/10uei011/node-slugify)
 
+A simple function which generates friendly url or slugs from string input.
 
 ## Installing
 
-```
+```bash
 npm i --save node-slugify
 ```
 
