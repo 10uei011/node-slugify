@@ -110,7 +110,6 @@ it('Why is INDIA great: “-->”?', () => {
   assert.strictEqual(actual, expected)
 })
 
-
 // stackoverflow.com/questions/1642028/why_is_india_great
 it('Why is india great: “-->”?', () => {
   // arrange
@@ -125,11 +124,6 @@ it('Why is india great: “-->”?', () => {
   // assert
   assert.strictEqual(actual, expected)
 })
-
-
-
-
-
 
 // stackoverflow.com/questions/6430448/why-doesnt-gcc-optimize-aaaaaa-to-aaaaaa
 it('Why doesn\'t GCC optimize a*a*a*a*a*a to (a*a*a)*(a*a*a)?', () => {

@@ -4,12 +4,12 @@
   "description": "Simple and useful function for generating friendly url/slug.",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha ./test/*",
+    "test": "standard && ./node_modules/mocha/bin/mocha ./test/*",
     "test-travis": "./node_modules/istanbul/lib/cli.js cover ./node_modules/mocha/bin/_mocha -- -R spec ./test/*"
   },
   "repository": {
     "type": "git",
-    "url": "https: //github.com/10uei011/node-slugify"
+    "url": "https://github.com/10uei011/node-slugify"
   },
   "keywords": [
     "utils",
@@ -23,6 +23,7 @@
   "devDependencies": {
     "coveralls": "^2.12.0",
     "istanbul": "^0.4.5",
-    "mocha": "^3.2.0"
+    "mocha": "^3.2.0",
+    "standard": "^9.0.2"
   }
 }
